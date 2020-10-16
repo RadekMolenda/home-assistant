@@ -8,7 +8,7 @@ pot_defaults: &pot_defaults
       else if (state > 20) return [120,100,50];
       else return [120,100,20];
 
-title: Los Warzenkos
+title: Los Warzenkos Akacjowa
 views:
   - title: Ogrod
     icon: 'mdi:leaf'

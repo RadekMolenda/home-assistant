@@ -1,0 +1,10 @@
+garden:
+  entities:
+    - sensor.doniczka_1
+    - sensor.doniczka_2
+    - sensor.doniczka_3
+    - sensor.doniczka_4
+    - sensor.doniczka_5
+    - sensor.doniczka_6
+    - sensor.doniczka_7
+    - sensor.doniczka_8

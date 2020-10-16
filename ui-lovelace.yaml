@@ -1,0 +1,31 @@
+pot_defaults: &pot_defaults
+  type: entity-button
+  templates:
+    hs_color: >
+      if (state > 50) return [0,100,100];
+      else if (state > 40) return [60,100,100];
+      else if (state > 30) return [240,100,100];
+      else if (state > 20) return [120,100,50];
+      else return [120,100,20];
+
+title: Los Warzenkos
+views:
+  - title: Ogrod
+    icon: 'mdi:leaf'
+    cards:
+      - <<: *pot_defaults
+        entity: sensor.doniczka_1
+      - <<: *pot_defaults
+        entity: sensor.doniczka_2
+      - <<: *pot_defaults
+        entity: sensor.doniczka_3
+      - <<: *pot_defaults
+        entity: sensor.doniczka_4
+      - <<: *pot_defaults
+        entity: sensor.doniczka_5
+      - <<: *pot_defaults
+        entity: sensor.doniczka_6
+      - <<: *pot_defaults
+        entity: sensor.doniczka_7
+      - <<: *pot_defaults
+        entity: sensor.doniczka_8

@@ -1,0 +1,41 @@
+---
+
+- &pot_defaults
+  name: Doniczka 1
+  state_topic: "nodered/home/garden/pot1"
+  platform: mqtt
+  icon: 'mdi:leaf'
+  value_template: "{{ value_json.humidity }}"
+  # templates:
+  #   hs_color: >
+  #     if (state > 50) return [0,100,100];
+  #     else if (state > 40) return [60,100,100];
+  #     else if (state > 30) return [240,100,100];
+  #     else if (state > 20) return [120,100,50];
+  #     else return [120,100,20];
+
+# pot defaults
+# - <<: *pot_defaults
+#   name: Doniczka 1
+#   state_topic: "nodered/home/garden/pot1"
+- <<: *pot_defaults
+  name: Doniczka 2
+  state_topic: "nodered/home/garden/pot2"
+- <<: *pot_defaults
+  name: Doniczka 3
+  state_topic: "nodered/home/garden/pot3"
+- <<: *pot_defaults
+  name: Doniczka 4
+  state_topic: "nodered/home/garden/pot4"
+- <<: *pot_defaults
+  name: Doniczka 5
+  state_topic: "nodered/home/garden/pot5"
+- <<: *pot_defaults
+  name: Doniczka 6
+  state_topic: "nodered/home/garden/pot6"
+- <<: *pot_defaults
+  name: Doniczka 7
+  state_topic: "nodered/home/garden/pot7"
+- <<: *pot_defaults
+  name: Doniczka 8
+  state_topic: "nodered/home/garden/pot8"

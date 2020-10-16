@@ -1,0 +1,7 @@
+.vscode
+.storage
+tts
+secrets.yaml
+deps
+home-assistant.log
+home-assistant_v2.db
